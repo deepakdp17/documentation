@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Documentation of python">
+        <meta name="author" content="Deepak Dp">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Documentation of Python</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav id="navbar">
+            <header>
+                PYTHON
+            </header>
+            <ul>
+                <li ::maker><a class="nav-link" href="#Introduction">Introduction</a></li>
+                <li ::maker><a class="nav-link" href="#History">History</a></li>
+                <li ::maker><a class="nav-link" href="#Pre-requisite">Pre-requisite</a></li>
+                <li ::maker><a class="nav-link" href="#Applications">Applications</a></li>
+                <li ::maker><a class="nav-link" href="#Hello_World">Hello World</a></li>
+                <li ::maker><a class="nav-link" href="#Variables">Variables</a></li>
+                <li ::maker><a class="nav-link" href="#Data_Types">Data Types</a></li>
+                <li ::maker><a class="nav-link" href="#Keywords">Keywords</a></li>
+                <li ::maker><a class="nav-link" href="#Literals">Literals</a></li>
+                <li ::maker><a class="nav-link" href="#Operators">Operators</a></li>
+                <li ::maker><a class="nav-link" href="#Comments">Comments</a></li>
+                <li ::maker><a class="nav-link" href="#if-else_Statement">if-else Statement</a></li>
+                <li ::maker><a class="nav-link" href="#Python_Loops">Python Loops</a></li>
+                <li ::maker><a class="nav-link" href="#Python_break_statement">Python break statement</a></li>
+                <li ::maker><a class="nav-link" href="#Reference">Reference</a></li>
+            </ul>
+        </nav>
+        <main id="main-doc">
+            <h1>Python Tutorial</h1>
+            <section id="Introduction" class="main-section">
+                <header>Introduction</header>
+                <article>
+                    <p>Python is a general purpose, dynamic, high-level, and 
+                        interpreted programming language. It supports Object Oriented 
+                        programming approach to develop applications. 
+                        It is simple and easy to learn and provides lots of high-level data structures.
+                        Python is easy to learn yet powerful and versatile scripting language, 
+                        which makes it attractive for Application Development.
+                    </p>
+                    <ul>
+                        <li ::maker>
+                            Python's syntax and dynamic typing with its interpreted nature make it 
+                            an ideal language for scripting and rapid application development.
+                        </li>
+                        <li ::maker>
+                            Python supports multiple programming pattern, including object-oriented, 
+                            imperative, and functional or procedural programming styles.
+                        </li>
+                        <li ::maker>
+                            Python makes the development and debugging fast because there is no 
+                            compilation step included in Python development, and edit-test-debug cycle is very fast.
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <section id="History" class="main-section">
+                <header>History</header>
+                <article>
+                    <p>
+                        Python laid its foundation in the late 1980s.
+                        The implementation of Python was started in December 1989 by Guido Van Rossum at CWI in Netherland.
+                        In February 1991, Guido Van Rossum published the code (labeled version 0.9.0) to alt.sources.
+                        ABC programming language is said to be the predecessor of Python language, which was capable 
+                        of Exception Handling and interfacing with the Amoeba Operating System.
+                    </p>
+                    <ul>
+                        <li ::maker>
+                            In 1994, Python 1.0 was released with new features like lambda, map, filter, and reduce.
+                        </li>
+                        <li ::maker>
+                            On December 3, 2008, Python 3.0 (also called "Py3K") was released. It was designed to 
+                            rectify the fundamental flaw of the language.
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <section id="Pre-requisite" class="main-section">
+                <header>Pre-requisite</header>
+                <article>
+                    <p>
+                        You can learn python from scratch. Python is easier to learn because of its 
+                        simple syntax, vast library. It is a open source means you don't have to pay 
+                        single penny. This is website developed for both beginners and professionals.
+                        It would be better you know one of the programming language like c,c++,c#,java,
+                        etc.. It makes you learn quicker and easier to understand the concepts. 
+                    </p>
+                    <ul>
+                        <li ::maker>
+                            Install the latest version python3.8 in your computer. 
+                        </li>
+                        <li ::maker>
+                            Make sure your Command Prompt/ Terminal supports the latest version of python. Because
+                            we will be using cmd sometimes as python is a interpreted language.
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <section id="Applications" class="main-section">
+                <header>Applications</header>
+                <article>
+                    <p>
+                        Python is known for its general-purpose nature that makes it applicable in almost 
+                        every domain of software development. Python makes its presence in every emerging field. 
+                        It is the fastest-growing programming language and can develop any application.
+                    </p>
+                    <ol>
+                        <li ::maker>
+                            <h4>Web Applications</h4>
+                            <p>
+                                We can use Python to develop web applications. It provides libraries to handle 
+                                internet protocols such as HTML and XML, JSON, Email processing, request, beautifulSoup, 
+                                Feedparser, etc. One of Python web-framework named Django is used on Instagram. 
+                                Python provides many useful frameworks, and these are given below:
+                            </p>
+                            <ul>
+                                <li ::maker>
+                                    Django and Pyramid framework(Use for heavy applications)
+                                </li>
+                                <li :;maker>
+                                    Flask and Bottle(micro-framework)
+                                </li>
+                                <li ::maker>
+                                    Plone and Django CMS (Advance Content management)
+                                </li>
+                            </ul>
+                        </li>
+                        <li ::maker>
+                            <h4>Desktop GUI Applications</h4>
+                            <p>
+                                The GUI stands for the Graphical User Interface, which provides a smooth interaction to any application. 
+                                Python provides a Tk GUI library to develop a user interface. Some popular GUI libraries are given below.
+                            </p>
+                            <ul>
+                                <li ::maker>
+                                    Tkinter or Tk
+                                </li>
+                                <li ::maker>
+                                    wxWidgetM
+                                </li>
+                                <li ::maker>
+                                    Pivy (used for writing multitouch applications)
+                                </li>\
+                                <li ::maker>
+                                    PyQt or Pyside
+                                </li>
+                            </ul>
+                        </li>
+                        <li ::maker>
+                            <h4>Console-based Applications</h4>
+                            <p>
+                                Console-based applications run from the command-line or shell. These applications are computer 
+                                program which are used commands to execute. This kind of application was more popular in the old 
+                                generation of computers. Python can develop this kind of application very effectively. It is famous 
+                                for having REPL, which means the Read-Eval-Print Loop that makes it the most suitable 
+                                language for the command-line applications.
+                            </p>
+                        </li>
+                        <li ::maker>
+                            <h4>Software Development</h4>
+                            <p>
+                                Python is useful for the software development process. It works 
+                                as a support language and can be used to build control and management, testing, etc.
+                            </p>
+                            <ul>
+                                <li ::maker>
+                                    <b>SCons</b> used to build control
+                                </li>
+                                <li ::maker>
+                                    <b>Buildbot</b> and <b>Apache</b> Gumps are used for automated continuous compilation and testing. 
+                                </li>
+                                <li ::maker>
+                                    <b>Round</b> or <b>Tac</b> for bug tracking and project management. 
+                                </li>
+                            </ul>
+                        </li>
+                        <li ::maker>
+                            <h4>Scientific and Numeric</h4>
+                            <p>
+                                This is the era of Artificial intelligence where the machine can perform the task 
+                                the same as the human. Python language is the most suitable language for Artificial 
+                                intelligence or machine learning. It consists of many scientific and mathematical 
+                                libraries, which makes easy to solve complex calculations
+                            </p>
+                            <p>
+                                Implementing machine learning algorithms require complex mathematical calculation. 
+                                Python has many libraries for scientific and numeric such as Numpy, Pandas, Scipy, 
+                                Scikit-learn, etc. If you have some basic knowledge of Python, you need to import 
+                                libraries on the top of the code. Few popular frameworks of machine libraries are 
+                                given below.
+                            </p>
+                            <ul>
+                                <li ::maker>
+                                    SciPy
+                                </li>
+                                <li ::maker>
+                                    Scikit-learn
+                                </li>
+                                <li ::maker>
+                                    NumPy
+                                </li>
+                                <li ::maker>
+                                    Pandas
+                                </li>
+                                <li ::maker>
+                                    Matplotlib
+                                </li>
+                            </ul>
+                        </li>
+                        <li ::maker>
+                            <h4>Business Applications</h4>
+                            <p>
+                                Business Applications differ from standard applications. E-commerce 
+                                and ERP are an example of a business application. 
+                                This kind of application requires extensively, scalability and readability, 
+                                and Python provides all these features.
+                            </p>
+                        </li>
+                        <li ::maker>
+                            <h4>Audio or Video-based Applications</h4>
+                            <p>
+                                Python is flexible to perform multiple tasks and can be used to create multimedia applications. 
+                                Some multimedia applications which are made by 
+                                using Python are TimPlayer, cplay, etc. The few multimedia libraries are given below.
+                            </p>
+                            <ul>
+                                <li ::maker>
+                                    Gstreamer
+                                </li>
+                                <li ::maker>
+                                    Pyglet
+                                </li>
+                                <li ::maker>
+                                    QT Phonon
+                                </li>
+                            </ul>
+                        </li>
+                        <li ::maker>
+                            <h4>3D CAD Applications</h4>
+                            <p>
+                                The CAD (Computer-aided design) is used to design engineering related architecture. 
+                                It is used to develop the 3D representation of a part of a system. 
+                                Python can create a 3D CAD application by using the following functionalities.
+                            </p>
+                            <ul>
+                                <li ::maker>
+                                    Fandango
+                                </li>
+                                <li ::maker>
+                                    CAMVOX
+                                </li>
+                                <li ::maker>
+                                    HeeksCNC
+                                </li>
+                                <li ::maker>
+                                    AnyCAD
+                                </li>
+                                <li ::maker>
+                                    RCAM
+                                </li>
+                            </ul>
+                        </li>
+                        <li ::maker>
+                            <h4>Enterprise Applications</h4>
+                            <p>
+                                Python can be used to create applications that can be used within 
+                                an Enterprise or an Organization. Some real-time applications are OpenERP, Tryton, Picalo, etc.
+                            </p>
+                        </li>
+                        <li ::maker>
+                            <h4>Image Processing Applications</h4>
+                            <p>
+                                Python contains many libraries that are used to work with the image. 
+                                The image can be manipulated according to our requirements. Some libraries 
+                                of image processing are given below.
+                            </p>
+                            <ul>
+                                <li ::maker>
+                                    OpenCV
+                                </li>
+                                <li ::maker>
+                                    Pillow
+                                </li>
+                                <li ::maker>
+                                    SimpleITK
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+                </article>
+            </section>
+            <section id="Hello_World" class="main-section">
+                <header>Hello World</header>
+                <article>
+                    <p>
+                        To start with Python programming, open any texteditor and write your code. Save the file 
+                        with .py extension, then run the program.<br/>
+                    </p>
+                    Lets write a code to print hello world.
+                    <code>
+                        print("Hello World")
+                    </code>
+                    <b>Output</b>
+                    <code>
+                        Hello World
+                    </code>
+                </article>
+            </section>
+            <section id="Variables" class="main-section">
+                <header>Variables</header>
+                <article>
+                    <p>
+                        Variable is a name that is used to refer to memory location. Python variable is also known 
+                        as an identifier and used to hold value.
+                        In Python, we don't need to specify the type of variable because Python is a infer language 
+                        and smart enough to get variable type.
+                        Variable names can be a group of both the letters and digits, but they have to begin with 
+                        a letter or an underscore.
+                        Since python is case sensitive it is recommended to use lowercase letters for the variable name.
+                    </p>
+                    <b>Rules name an identifier</b>
+                    <ul>
+                        <li ::maker>
+                            The first character of the variable must be an alphabet or underscore ( _ ).
+                        </li>
+                        <li ::maker>
+                            All the characters except the first character may be an alphabet of 
+                            lower-case(a-z), upper-case (A-Z), underscore, or digit (0-9).
+                        </li>
+                        <li ::maker>
+                            Identifier name must not contain any white-space, or special character (!, @, #, %, ^, &, *).
+                        </li>
+                        <li ::maker>
+                            Identifier name must not be similar to any keyword defined in the language.
+                        </li>
+                        <li ::maker>
+                            Identifier names are case sensitive; for example, my name, and MyName is not the same.
+                        </li>
+                        <li ::maker>
+                            Examples of valid identifiers: a123, _n, n_9, etc.
+                        </li>
+                        <li>
+                            Examples of invalid identifiers: 1a, n%4, n 9, etc.
+                        </li>
+                    </ul>
+                    Visit <a href="https://www.javatpoint.com/python-variables">here</a> to learn more about python variables
+                </article>
+            </section>
+            <section id="Data_Types" class="main-section">
+                <header>Data Types</header>
+                <article>
+                    <p>
+                        Variables can hold values, and every value has a data-type. Python is a dynamically typed language; 
+                        hence we do not need to define the 
+                        type of the variable while declaring it. The interpreter implicitly binds the value with its type.
+                    </p>
+                    <code>
+                        a=5
+                        b=2.6
+                        string="10"
+                    </code>
+                    <p>
+                        Variable a holds the integer value 5, b holds float value 2.6 and variable string holds string value 5.
+                        we did not define its type. Python interpreter will automatically interpret variables a as an integer type.
+                        Python enables us to check the type of the variable used in the program. Python provides us the type() function, 
+                        which returns the type of the variable passed.
+                    </p>
+                    Visit <a href="https://www.javatpoint.com/python-data-types">here</a> to learn more about python data types
+                </article>
+            </section>
+            <section id="Keywords" class="main-section">
+                <header>Keywords</header>
+                <article>
+                    <p>
+                        Python Keywords are special reserved words that convey a special meaning to the compiler/interpreter. 
+                        Each keyword has a special meaning and a specific operation. 
+                        These keywords can't be used as a variable. Following is the List of Python Keywords.
+                    </p>
+                    <table class="alt">
+                        <tbody>
+                            <tr><td>True</td><td>False</td><td>None</td><td>and</td><td>as</td></tr>
+                            <tr><td>asset</td><td>def</td><td>class</td><td>continue</td><td>break</td></tr>
+                            <tr><td>else</td><td>finally</td><td>elif</td><td>del</td><td>except</td></tr>
+                            <tr><td>global</td><td>for</td><td>if</td><td>from</td><td>import</td></tr>
+                            <tr><td>raise</td><td>try</td><td>or</td><td>return</td><td>pass</td></tr>
+                            <tr><td>nonlocal</td><td>in</td><td>not</td><td>is</td><td>lambda</td></tr>
+                        </tbody>
+                    </table>
+                    <br/>Visit <a href="https://www.javatpoint.com/python-keywords">here</a> to learn more about python keywords
+                </article>
+            </section>
+            <section id="Literals" class="main-section">
+                <header>Literals</header>
+                <article>
+                    Python Literals can be defined as data that is given in a variable or constant.
+                    <br/>Python supports the following literals:
+                    <ol type="1">
+                       <li ::maker>
+                            <h4>String Literals</h4>
+                            String literals can be formed by enclosing a text in the quotes. 
+                            We can use both single as well as double quotes to create a string.
+                            <br/><br/>types of literals are:-
+                            <ol type="a">
+                                <li ::maker>
+                                    <strong>single-line-string</strong>
+                                    <p>
+                                        Strings that are terminated within a single-line are known as Single line Strings.
+                                    </p>
+                                </li>
+                                <li ::maker>
+                                    <strong>multi-line String</strong>
+                                    <p>A piece of text that is written in multiple lines is known as multiple lines string.<br/>
+                                        There are two ways to create multiline strings:
+                                    </p>
+                                    <ol type="i">
+                                        <li ::maker>
+                                            Adding backslash(\) at end of the line:-
+                                        </li>
+                                        <p>
+                                            Ex:-
+                                            <code>
+                                                text="Hello \
+                                                World"
+                                                print(text)
+                                            </code>
+                                            <u>Output</u>
+                                            <code>
+                                                Hello World
+                                            </code>
+                                        </p>
+                                        <li ::maker>
+                                            Using triple quatation marks:-
+                                        </li>
+                                        <p>
+                                            Ex:-
+                                            <code>
+                                                str1="'''Welcome 
+                                                to Python 
+                                                Tutorial'''
+                                                print(str1)
+                                            </code>
+                                            <u>Output</u>
+                                            <code>
+                                                Welcome to Python Tutorial
+                                            </code>
+                                        </p>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                        <li ::maker>
+                            <h4>Numeric Literals</h4>
+                            Numeric Literals are immutable. Numeric literals can belong to following four different numerical types.
+                            <ol type="i">
+                                <li ::maker>
+                                    <strong>Int (signed integers)</strong>
+                                    <p>
+                                        Numbers( can be both positive and negative) with no fractional part.eg: 100
+                                    </p>
+                                </li>
+                                <li ::maker>
+                                    <strong>Long (long integers)</strong>
+                                    <p>
+                                        Integers of unlimited size followed by lowercase or uppercase L eg: 87032845L
+                                    </p>
+                                </li>
+                                <li ::maker>
+                                    <strong>float (Floating point)</strong>
+                                    <p>
+                                        Real numbers with both integer and fractional part eg: -26.2
+                                    </p>
+                                </li>
+                                <li ::maker>
+                                    <strong>complex</strong>
+                                    <p>
+                                        In the form of a+bj where a forms the real part and b forms the imaginary part of the complex number. eg: 3.14j
+                                    </p>
+                                </li>
+                            </ol>
+                        </li>
+                        <li ::maker>
+                            <h4>Boolean Literals</h4>
+                            A Boolean literal can have any of the two values: True or False.
+                            <br/><br/>Ex-
+                            <code>
+                                x=True
+                                y=(5==False)
+                                z=(3==True)
+                                a=True+10
+                                b=False+5
+
+                                print(x,y,z,a,b,sep='\n')
+                            </code>
+                            <u>Output</u>
+                            <code>
+                                True
+                                False
+                                True
+                                11
+                                5
+                            </code>
+                        </li>
+                        <li ::maker>
+                            <h4>Special Literals</h4>
+                            Python contains one special literal i.e., None.
+                            None is used to specify to that field that is not created. 
+                            It is also used for the end of lists in Python.
+                        </li>
+                        <li ::maker>
+                            <h4>Literal collections</h4>
+                            Python provides the four types of literal collection such as 
+                            List literals, Tuple literals, Dict literals, and Set literals.
+                            <ol type="i">
+                                <li ::maker>
+                                    Lists
+                                    <ul>
+                                        <li ::maker>
+                                            ist contains items of different data types. Lists are mutable i.e., modifiable.
+                                        </li>
+                                        <li ::maker>
+                                            The values stored in List are separated by comma(,) and enclosed within 
+                                            square brackets([]). We can store different types of data in a List.
+                                        </li>
+                                    </ul>
+                                    example for list literals
+                                    <code>
+                                        list=['John',678,20.4,'Peter']    
+                                        list1=[456,'Andrew']    
+                                        print(list)    
+                                        print(list + list1)  
+                                    </code>
+                                    <u>Output</u>
+                                    <code>
+                                        ['John', 678, 20.4, 'Peter']
+                                        ['John', 678, 20.4, 'Peter', 456, 'Andrew']
+                                    </code>
+                                </li>
+                                <li ::maker>
+                                    Dictionary
+                                    <ul>
+                                        <li ::maker>
+                                            Python dictionary stores the data in the key-value pair.
+                                        </li>
+                                        <li ::maker>
+                                            It is enclosed by curly-braces {} and each pair is separated by the commas(,).
+                                        </li>
+                                    </ul>
+                                    example for dictionary literals
+                                    <code>
+                                        dict = {'name': 'Pater', 'Age':18,'Roll_nu':101}  
+                                        print(dict)  
+                                    </code>
+                                    <u>Output</u>
+                                    <code>
+                                        {'name': 'Pater', 'Age': 18, 'Roll_nu': 101}
+                                    </code>
+                                </li>
+                                <li ::maker>
+                                    Tuple
+                                    <ul>
+                                        <li ::maker>
+                                            Python tuple is a collection of different data-type. It is immutable 
+                                            which means it cannot be modified after creation.
+                                        </li>
+                                        <li ::maker>
+                                            It is enclosed by the parentheses () and each element is separated by the comma(,).
+                                        </li>
+                                    </ul>
+                                    example for tuple literals
+                                    <code>
+                                        tup = (10,20,"Dev",[2,3,4])  
+                                        print(tup)  
+                                    </code>
+                                    <u>Output</u>
+                                    <code>
+                                        (10, 20, 'Dev', [2, 3, 4])
+                                    </code>
+                                </li>
+                                <li ::maker>
+                                    <ul>
+                                        <li ::maker>
+                                            Python set is the collection of the unordered dataset.
+                                        </li>
+                                        <li ::maker>
+                                            It is enclosed by the {} and each element is separated by the comma(,).
+                                        </li>
+                                    </ul>
+                                    example for set literals
+                                    <code>
+                                        set = {'apple','grapes','guava','papaya'}  
+                                        print(set)  
+                                    </code>
+                                    <u>Output</u>
+                                    <code>
+                                        {'guava', 'apple', 'papaya', 'grapes'}
+                                    </code>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                </article>
+            </section>
+            <section id="Operators" class="main-section">
+                <header>Operators</header>
+                    <article>
+                        The operator can be defined as a symbol which is responsible for a particular operation between two 
+                        operands. Operators are the pillars of a program on which the logic is built in a specific 
+                        programming language. Python provides a variety of operators, which are described as follows.
+                        <ul>
+                            <li ::maker>Arithmetic operators</li>
+                            <li ::maker>Comparison operators</li>
+                            <li ::maker>Assignment Operators</li>
+                            <li ::maker>Logical Operators</li>
+                            <li ::maker>Bitwise Operators</li>
+                            <li ::maker>Membership Operators</li>
+                            <li ::maker>Identity Operators</li>
+                        </ul>
+                        visit <a href="https://www.javatpoint.com/python-operators">here</a> to learn more about python operators
+                    </article>
+            </section>
+            <section id="Comments" class="main-section">
+                <header>Comments</header>
+                <article>
+                    <p>
+                        Python Comment is an essential tool for the programmers. Comments are generally used to explain the 
+                        code. We can easily understand the code if it has a proper explanation. A good programmer must use 
+                        the comments because in the future anyone wants to modify the code as well as implement the new module; 
+                        then, it can be done easily.
+                        In the other programming language such as C++, It provides the // for single-lined comment and /*.... */ 
+                        for multiple-lined comment, but Python provides the single-lined Python comment. To apply the comment in 
+                        the code we use the hash(#) at the beginning of the statement or code.
+                        We can also use the triple quotes ('''''') for multiline comment. The triple quotes are also used to 
+                        string formatting.
+                    </p>
+                    example
+                    <code id="cmt">
+                        #This is comment
+                        #comments are used to increase readability.
+                        '''
+                        It makes
+                        the code 
+                        understandable
+                        '''
+                    </code>
+                </article>
+            </section>
+            <section id="if-else_Statement" class="main-section">
+                <header>if-else Statement</header>
+                <article>
+                    <p>
+                        Decision making is the most important aspect of almost all the programming languages. As the 
+                        name implies, decision making allows us to run a particular block of code for a particular decision. 
+                        Here, the decisions are made on the validity of the particular conditions. Condition checking 
+                        is the backbone of decision making. 
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>if statement -</strong> The if statement is used to test a specific condition. 
+                            If the condition is true, a block of code (if-block) will be executed.
+                        </li>
+                        <li>
+                            <strong>if else statement -</strong> The if-else statement is similar to if statement 
+                            except the fact that, it also provides the block of the code for the false case of the 
+                            condition to be checked. If the condition 
+                            provided in the if statement is false, then the else statement will be executed.
+                        </li>
+                        <li>
+                            <strong>Nested if -</strong> Nested if statements enable us to use if, else statement inside an outer if statement. 
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <section id="Python_Loops" class="main-section">
+                <header>Python Loops</header>
+                <article>
+                    <p>
+                        The flow of the programs written in any programming language is sequential by default. Sometimes we may need to 
+                        alter the flow of the program. The execution of a specific code may need to be repeated several numbers of times.
+                        For this purpose, The programming languages provide various types of loops which are capable of repeating some 
+                        specific code several numbers of times. Consider the following diagram to understand the working of a loop statement.
+                    </p>
+                    <img src="https://static.javatpoint.com/python/images/python-loops.png" alt="flow-chart of a Loop">
+                    <h4>Advantages of loops</h4>
+                    <ul>
+                        <li>
+                            It provides code re-usability.
+                        </li>
+                        <li>
+                            Using loops, we do not need to write the same code again and again.
+                        </li>
+                        <li>
+                            Using loops, we can traverse over the elements of data structures (array or linked lists).
+                        </li>
+                    </ul>
+                    There are 3 loop statements in Python
+                    <ol type="1">
+                        <li>
+                            <strong>for loop</strong>
+                            <p>
+                                The for loop is used in the case where we need to execute some part of the code until 
+                                the given condition is satisfied. The for loop is also called as a per-tested loop. 
+                                It is better to use for loop if the number of iteration is known in advance.
+                                It is frequently used to traverse the data structures like list, tuple, or dictionary.
+                            </p>
+                            <i>syntax:</i>
+                            <code>
+                                <span class="keyword">for</span> &nbsp;iterating_var &nbsp;<span class="keyword">in</span>&nbsp;sequence :
+                                &nbsp;&nbsp;&nbsp;&nbsp;statement(s)
+                            </code>
+                            Visit <a href="https://www.javatpoint.com/python-for-loop">here</a> to learn more about <b>for</b> loop in python.
+                        </li>
+                        <li>
+                            <strong>while loop</strong>
+                            <p>
+                                The while loop is to be used in the scenario where we don't know the number of iterations in advance. The block of statements is executed 
+                                in the while loop until the condition specified in the while loop is satisfied. It is also called a pre-tested loop.
+                            </p>
+                            <i>syntax</i>
+                            <code>
+                                <span class="keyword">while</span>&nbsp;expression:
+                                    &nbsp;&nbsp;&nbsp;&nbsp;statements
+                            </code>
+                            Visit <a href="https://www.javatpoint.com/python-while-loop">here</a> to learn more about <b>while</b> loop in python.
+                        </li>
+                        <li>
+                            <strong>do-while loop</strong>
+                            <p>
+                                The do-while loop continues until a given condition satisfies. It is also called post tested loop. It is used 
+                                when it is necessary to execute the loop at least once (mostly menu driven programs).
+                            </p>
+                        </li>
+                    </ol>
+                </article>
+            </section>
+            <section id="Python_break_statement" class="main-section">
+                <header>Python break statement</header>
+                <p>
+                    The break is a keyword in python which is used to bring the program control out of the loop. The break 
+                    statement breaks the loops one by one, i.e., in the case of nested loops, it breaks the inner loop first 
+                    and then proceeds to outer loops. In other words, we can say that break is used to abort the current 
+                    execution of the program and the control goes to the next line after the loop.
+                    The break is commonly used in the cases where we need to break the loop for a given condition.
+                </p>
+                <i>syntax</i>
+                <code>
+                    <span id="cmt">#loop statements</span>
+                    <span class="keyword">break</span>
+                </code>
+            </section>
+            <section id="Reference" class="main-section">
+                <header>Reference</header>
+                <ul>
+                    <li>
+                        All the information in this website is taken from <a href="https://www.javatpoint.com/">javatpoint</a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>
